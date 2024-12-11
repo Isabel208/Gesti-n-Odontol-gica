@@ -1,19 +1,19 @@
 public class Persona {
   private String nombre; //propiedad
-  private int edad; 
+  private int edad; //propiedad
 
-  public Persona () {
+  public Persona () {  //constructor
   }
-  public int getEdad () {
+  public int getEdad () {  //asesor a carrera
     return edad;
   }
-  public void setEdad (int val) {
+  public void setEdad (int val) {  //mutador de carrera
     this.edad = val;
   }
-  public String getNombre () {
+  public String getNombre () {  // asesor a legajo
     return nombre;
   }
-  public void setNombre (String val) {
+  public void setNombre (String val) {  // mutador de legajo
     this.nombre = val;
   }
 }
